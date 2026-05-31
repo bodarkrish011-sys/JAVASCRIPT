@@ -20,3 +20,9 @@ console.log(typeof 11.11)
 let num1,num2,num3 
 num1=2+2,num2=2+2,num3=2+2
 console.table([num1,num2,num3])
+
+
+let SYNum = Symbol("1223")
+let SYNum1 = Symbol("1223")
+console.log(Boolean(SYNum==SYNum1))
+console.log(Boolean(SYNum1))
